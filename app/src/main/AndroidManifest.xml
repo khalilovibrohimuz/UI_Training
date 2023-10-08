@@ -21,6 +21,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".alien.ActivityShunchaki" />
+        <activity android:name=".alien.ActivityAlien" />
+        <activity android:name=".ActivityRamzbek" />
     </application>
 
 </manifest>

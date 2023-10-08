@@ -17,7 +17,7 @@ class ActivityAlien : AppCompatActivity() {
 
         binding.bSend.setOnClickListener {
             val intent = Intent(context, ActivityShunchaki::class.java)
-            intent.putExtra("name", binding.etName.text)
+            intent.putExtra("name", binding.etName.text.toString())
             startActivity(intent)
         }
     }
