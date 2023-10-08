@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import uz.alien.ui_training.alien.ActivityAlien
 import uz.alien.ui_training.databinding.ActivityHomeBinding
+import uz.alien.ui_training.ramiz.ActivityRamzbek
 
 class ActivityHome : AppCompatActivity() {
 

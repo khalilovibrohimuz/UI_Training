@@ -17,13 +17,13 @@
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".alien.ActivityShunchaki" />
         <activity android:name=".alien.ActivityAlien" />
-        <activity android:name=".ActivityRamzbek" />
+        <activity android:name=".alien.ActivityShunchaki" />
+        <activity android:name=".ramiz.ActivityRamzbek" />
+        <activity android:name=".ramiz.ActivityShunchaki" />
     </application>
 
 </manifest>

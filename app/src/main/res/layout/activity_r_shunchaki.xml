@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
@@ -8,38 +8,41 @@
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize">
 
-        <androidx.appcompat.widget.Toolbar
-            android:background="#aaf0ff"
+        <Toolbar
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:background="#1ADAC8">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textStyle="bold"
+                android:text="Logo"
+                android:textColor="@color/white"
                 android:textSize="20sp"
-                android:text="Biror narsa"
-                android:textColor="#0080FF" />
+                android:textStyle="bold" />
+        </Toolbar>
 
-        </androidx.appcompat.widget.Toolbar>
 
     </com.google.android.material.appbar.AppBarLayout>
 
     <TextView
-        android:id="@+id/tv_sarlavha"
+        android:id="@+id/tv_sarlovha"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Sarlavha"
+        android:text="Sarlovha"
         android:gravity="center"
-        android:textStyle="bold"
-        android:textSize="18sp"
-        android:layout_marginTop="24dp" />
+        android:paddingTop="12dp"
+        android:textStyle="italic|bold"
+        android:textSize="18sp"/>
 
     <TextView
-        android:id="@+id/tv_sher"
+        android:id="@+id/tv_shero"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_margin="20dp"
-        android:text="Bu yerda she'r bor" />
+        android:text="sher bor "
+        android:padding="24dp" />
+
+
+
 
 </LinearLayout>
