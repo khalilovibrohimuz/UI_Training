@@ -3,6 +3,7 @@ package uz.alien.ui_training
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import uz.alien.ui_training.alien.ActivityAlien
 import uz.alien.ui_training.databinding.ActivityHomeBinding
 
 class ActivityHome : AppCompatActivity() {
