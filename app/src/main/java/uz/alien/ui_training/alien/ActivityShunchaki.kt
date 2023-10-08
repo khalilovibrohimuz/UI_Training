@@ -15,9 +15,9 @@ class ActivityShunchaki : AppCompatActivity() {
         setContentView(binding.root)
 
         val name = intent.getStringExtra("name")
-        val sher = "Soxtalikni yig'ishtir do'stim, Nafs quliga aylanib qolma. Omad kelib ko'paysa puling, Do'stga do'st bo'l o'zgarib qolma.\n" +
-                "Molu dunyo o'tkinchi bilgin, So'zlarimga qovog'ing solma. Senga bersa Xudo uch to'rt so'm, Do'stga do'st bo'l o'zgarib qolma.\n" +
-                "Tashvish bo'lsa birga yengamiz, Do'stim qo'rqma havotir olma. Yaxshilligim unutmasang bas, Do'stga do'st bo'l o'zgarib qolma."
+        val sher = "Soxtalikni yig'ishtir do'stim,\nNafs quliga aylanib qolma.\nOmad kelib ko'paysa puling,\nDo'stga do'st bo'l o'zgarib qolma.\n\n" +
+                "Molu dunyo o'tkinchi bilgin,\nSo'zlarimga qovog'ing solma.\nSenga bersa Xudo uch to'rt so'm,\nDo'stga do'st bo'l o'zgarib qolma.\n\n" +
+                "Tashvish bo'lsa birga yengamiz,\nDo'stim qo'rqma havotir olma.\nYaxshilligim unutmasang bas,\nDo'stga do'st bo'l o'zgarib qolma."
 
         binding.tvSarlavha.text = name
         binding.tvSher.text = sher
